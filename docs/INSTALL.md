@@ -36,6 +36,7 @@
         ```
         wget https://motchallenge.net/data/MOTS.zip
         unzip MOTS.zip
+        mv MOTS/ MOTS20/
         python src/generate_coco_from_mot.py --mots
         ```
 
